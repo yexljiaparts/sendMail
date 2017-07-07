@@ -1,0 +1,286 @@
+#menubox {
+    width: 790px;
+    height: 32px;
+    margin-bottom: 0px;
+}
+
+#menubox ul {
+    margin: 0;
+    padding: 0;
+}
+#menubox ul li {
+    float: left;
+    list-style: none;
+    display: inline;
+    padding-top: 0px;
+    border: 1px;
+    border-bottom: 0px;
+    margin-left: 1px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 130px;
+    height: 32px;
+    text-align: center;
+    font-size: 12px;
+    overflow: visible;
+    background-color: #e9f4f8;
+    line-height: 17px !important;
+}
+
+#menubox ul li.hover {
+    border-top: 0px solid #D1D1D1;
+    border-right: 0px solid #D1D1D1;
+    border-left: 0px solid #D1D1D1;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    border-bottom: 0px solid #D1D1D1;
+    background-color: #40AFD4 !important;
+}
+
+.my-menu-focal{
+    border-top: 0px solid #D1D1D1;
+    border-right: 0px solid #D1D1D1;
+    border-left: 0px solid #D1D1D1;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    border-bottom: 0px solid #D1D1D1;
+    background-color: #2a8aa7 !important;
+}
+.my-menu-leftradius{
+    -moz-border-radius: 15px 0 0 0;      /* Gecko browsers */
+    -webkit-border-radius: 15px 0 0 0;   /* Webkit browsers */
+    border-radius:15px 0 0 0;          /* W3C syntax */
+}
+
+.my-menu-rightradius{
+    -moz-border-radius: 0 15px 0 0;      /* Gecko browsers */
+    -webkit-border-radius: 0 15px 0 0;   /* Webkit browsers */
+    border-radius:0 15px 0 0;          /* W3C syntax */
+}
+
+.my-menu-video {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/video.png);
+}
+
+.my-menu-video-blue {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/video-blue.png);
+}
+
+.my-sousuo {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    background-image: url(/static/img/tab/shousuo.png);
+}
+
+.my-menu-alert {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/alert.png);
+}
+
+.my-menu-alert-blue {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/alert-blue.png);
+}
+
+.my-menu-document {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/document.png);
+}
+
+.my-menu-document-blue {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/document-blue.png);
+}
+
+.my-menu-product {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/product.png);
+}
+
+.my-menu-product-blue {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/product-blue.png);
+}
+
+.my-menu-history {
+     margin-top: 5px;
+     display: inline-block;
+     text-decoration: none;
+     margin: 0;
+     padding: 0;
+     vertical-align: top;
+     text-align: center;
+     background-repeat: no-repeat;
+     width: 15px;
+     height: 14px;
+     background-image: url(/static/img/tab/history.png);
+ }
+
+.my-menu-history-blue {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/history-blue.png);
+}
+
+.my-menu-work {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/work.png);
+}
+
+.my-menu-work-blue{
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/work-blue.png);
+}
+
+.my-menu-company {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/company.png);
+}
+
+.my-menu-company-blue {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 14px;
+    background-image: url(/static/img/tab/company-blue.png);
+}
+
+.user-align-left{
+    margin-top: 6px;
+    margin-left: 80px;
+    color: white !important;
+    font-weight: bold;
+    font-size: 12px !important;
+}
+
+.search-top{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
